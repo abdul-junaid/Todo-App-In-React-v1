@@ -14,7 +14,9 @@ class Form extends Component {
     }
 
     removeItem = key=>{
-        alert(key)
+        let newItems = this.state.items
+        newItems.splice(key,1)
+        this.setState({items : newItems})
     }
 
     addItem = event=>{
