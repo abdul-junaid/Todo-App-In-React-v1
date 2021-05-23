@@ -1,10 +1,10 @@
 import React from 'react';
 import './Item.css'
 
-const Item = () => {
+const Item = props => {
     return (
-        <div className="item">
-            Some item here <i className="fa fa-trash"></i>
+        <div className="item" key={this.props.key}>
+            {this.props.item} <i className="fa fa-trash"></i>
         </div>
     );
 }
