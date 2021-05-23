@@ -1,5 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Form from './components/Form';
+import Form from './components/form/Form';
 
 export default ()=> <Form />

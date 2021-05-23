@@ -1,0 +1,13 @@
+.item{
+    width: 40%;
+    margin: 1rem auto;
+    display: flex;
+    padding: 1rem;
+    background-color: #13a5ca;
+    box-sizing: border-box;
+}
+.item i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
