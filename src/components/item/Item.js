@@ -1,10 +1,11 @@
 import React from 'react';
 import './Item.css'
 
-const Item = props => {
+const Item = (props) => {
+    const {key,item,click} = props.values
     return (
-        <div className="item" key={this.props.key}>
-            {this.props.item} <i className="fa fa-trash"></i>
+        <div className="item" key={key}>
+            {item} <i className="fa fa-trash" onClick={()=>click(key)}></i>
         </div>
     );
 }
